@@ -1,0 +1,102 @@
+Надело всем что то скидывать, так что вот
+------------
+JAIL
+------------
+Binds:
+
+Все команды рекомендую писать с выключенной игрой тута:  C:\Program Files (x86)\Steam\userdata\какието_циферки\730\local\cfg  
+и там в: config.cfg
+и не забудьте сохр.
+
+
+bind "кнопка" "say !shop любая надпась"
+
+
+bind "кнопка" "sm_shop"    //тоже самое, но без спама в чат
+                  /|\
+                   |
+           любая команда без "!"
+                
+-----АБ-----                
+bind "кнопка" "say aaa;say aaб;say aба;say aбб;say бaa;say бaб;say ббa;say ббб"            //за ето могут замутить
+bind "кнопка" "say aaaa;say бaaб;say бббб;say aбба;say баба;say абaб;say бааа;say аббб"    //тут не все варианты
+------------                
+
+Авто закуп по випкам:
+Bronse:    bind "кнопка" "sm_shop;menuselect 5;menuselect 8;menuselect 1;menuselect 9"
+Gold:      bind "кнопка" "sm_shop;menuselect 5;menuselect 8;menuselect 1;menuselect 2;menuselect 9"
+Premium:   bind "кнопка" "sm_shop;menuselect 3;menuselect 5;menuselect 6;menuselect 8;menuselect 1;menuselect 2;menuselect 3;menuselect 3;menuselect 3;menuselect 9;slot3"
+
+------------
+Как биндить на Numpad:
+
+"копка" для "кнопка на клаве"
+
+kp_end для 1
+
+kp_downarrow для 2
+
+kp_pgdn для 3
+
+kp_leftarrow для 4
+
+kp_5 для 5
+
+kp_rightarrow для 6
+
+kp_home для 7
+
+kp_uparrow для 8
+
+kp_pgup для 9
+
+kp_ins для 0
+
+kp_del для .
+
+kp_enter для enter
+
+kp_plus для +
+
+kp_minus для -
+
+kp_multiply для star
+
+kp_slash для /
+
+kp_numlock для numlock.
+-----------
+
+
+
+
+ALIAS (для элитки):
+
+КАК СОЗДАТЬ CFG: (обязательно)
+
+1. Создаём КОПИЮ!!! файла C:\Program Files (x86)\Steam\userdata\какието_циферки\730\local\cfg     config.cfg
+2. Переименовываем его: myconfig.cfg
+3. Правой клавишей по CS GO в стиме / свойства / установить параметры запуска / прописываем туда:  +exec myconfig.cfg
+4. открываем файлик с помощью блокнота и прописываем туды команды и алиасы
+
+bind f "gg"
+alias gg gg1
+alias gg1 "+lookatweapon;r_cleardecals;+lookatweapon"   //бесконечный осмотр оружия (коготь крутится на пальце БЕСКОЕЧНО!!!)
+                               /|\                                                                но нужно потыкать r и f
+                                |                       //+ убирает фонарик при осмотре оружия
+                                |
+                         очищает всю кровь
+                            и выстрелы
+
+----------
+TTT
+----------
+
+bind "кнопка" "weapon"
+alias weapon weapon1
+alias weapon1 "sm_wm;menuselect 2;menuselect 5;menuselect 5;menuselect 1;menuselect 1;menuselect 9;alias weapon weapon2"
+alias weapon2 "sm_wm;menuselect 2;menuselect 5;menuselect 6;menuselect 4;menuselect 1;menuselect 9;alias weapon weapon1"
+//даёт поочерёдно калаш и авп
+
+
+PS: Бинды в кс очень наглядные и их можно делать самому
