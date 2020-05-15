@@ -9,13 +9,15 @@ Binds:
 и не забудьте сохр.
 
 
-bind "кнопка" "say !shop любая надпась"
+bind "кнопка" "say !shop любая надпись"
 
 
 bind "кнопка" "sm_shop"    //тоже самое, но без спама в чат
                   /|\
                    |
            любая команда без "!"
+           
+bind "кнопка" "sm_shop;say любая надпись"
                 
 -----АБ-----                
 bind "кнопка" "say aaa;say aaб;say aба;say aбб;say бaa;say бaб;say ббa;say ббб"            //за ето могут замутить
@@ -31,43 +33,24 @@ Premium:   bind "кнопка" "sm_shop;menuselect 3;menuselect 5;menuselect 6;m
 Как биндить на Numpad:
 
 "копка" для "кнопка на клаве"
-
 kp_end для 1
-
 kp_downarrow для 2
-
 kp_pgdn для 3
-
 kp_leftarrow для 4
-
 kp_5 для 5
-
 kp_rightarrow для 6
-
 kp_home для 7
-
 kp_uparrow для 8
-
 kp_pgup для 9
-
 kp_ins для 0
-
 kp_del для .
-
 kp_enter для enter
-
 kp_plus для +
-
 kp_minus для -
-
 kp_multiply для star
-
 kp_slash для /
-
 kp_numlock для numlock.
 -----------
-
-
 
 
 ALIAS (для элитки):
