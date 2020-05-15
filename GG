@@ -92,7 +92,11 @@ alias gg1 "+lookatweapon;r_cleardecals;+lookatweapon"   //бесконечный
 ----------
 TTT
 ----------
+bind "кнопка" "sm_wm;menuselect 2;menuselect 5;menuselect 5;menuselect 1;menuselect 1;menuselect 9"   //калаш дигл
+bind "кнопка" "sm_wm;menuselect 2;menuselect 5;menuselect 6;menuselect 4;menuselect 1;menuselect 9"   //калаш дигл
+bind "кнопка" "sm_wm;menuselect 2;menuselect 5;menuselect 3;menuselect 6;menuselect 1;menuselect 9"   //П-90 дигл
 
+----------
 bind "кнопка" "weapon"
 alias weapon weapon1
 alias weapon1 "sm_wm;menuselect 2;menuselect 5;menuselect 5;menuselect 1;menuselect 1;menuselect 9;alias weapon weapon2"
